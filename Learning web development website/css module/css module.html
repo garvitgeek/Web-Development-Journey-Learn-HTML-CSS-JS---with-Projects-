@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cssstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<body>
+
+    <div class="part-1">
+        <h1>CSS</h1>
+
+        <h5>CSS is the language we use to style an HTML document.</h5>
+        <h5> CSS stands for Cascading Style Sheets </h5>
+        <br>
+<br>
+
+
+    </div>
+  
+
+
+<div class="part-2">
+
+
+
+<h3> CSS Syntax  </h3>
+<p>
+A CSS rule consists of a selector and a declaration block.
+
+
+
+The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+
+</p>
+
+<h4> Example </h4>
+    <p>In this example all  elements will be center-aligned, with a red text color:
+<br>
+
+    
+    p {<br> 
+      color: red;<br>
+      text-align: center;<br>
+    }
+    </p>
+
+    <p>
+
+        <h4>  Example Explained </h4>
+p is a selector in CSS it points to the HTML element you want to style <br> 
+color is a property, and red is the property value <br>
+text-align is a property, and center is the property value <br>
+    </p>
+
+    
+
+
+</div>
+
+
+
+
+<h3> Color </h3>    
+
+
+<h4>CSS Background Color </h4>
+
+
+ <p> You can set the background color for HTML elements: </p>
+
+ <div id="background-color-element">
+
+    &lt;h1 style="color: aqua;"&gt;Hello World&lt;/h1&gt;<br>
+    <br>
+    &lt;p style="color: skyblue;"&gt; p Lorem ipsum.
+    &lt;/p&gt;
+    <br>
+    <br>
+    &lt;h4 style="color: skyblue;"&gt;  h4  Lorem ipsum... &lt;/h4&gt;
+
+</div>
+ 
+
+ <h5>
+    Example
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+    <p style="background-color:skyblue;">Lorem ipsum...</p> 
+    <h4 style="background-color:palevioletred;">Hello World</h4>
+
+    <br>
+    <h4>CSS Border Color</h4>
+    <p>You can set the color of borders:
+
+    </p>
+
+    <h1 style="border: 30px solid Tomato;">Hello World</h1>
+    <h1 style="border: 20px solid DodgerBlue;">Hello World</h1>
+     <h1 style="border: 10px solid Violet;">Hello World</h1>
+
+
+     <h3>Example </h3>
+
+&lt;h1 style="border:30px solid Tomato;"&gt;Hello World&lt;/h1&gt; <br>
+<br>
+&lt;h1 style="border:20px solid DodgerBlue;"&gt;Hello World &lt;/h1&gt; <br>
+<br>
+&lt;h1 style="border:10px solid Violet;"&gt;Hello World &lt;/h1&gt;
+<br>
+
+</div>
+
+
+<div class="part-3">
+
+<h2> CSS Backgrounds</h2>
+ <p> The background-color property specifies the background color of an element. </p>
+
+
+ <h3> Example</h3> 
+<p>The background color of a page is set like this: <br>
+    <br>
+
+body { <br>
+  background-color: lightblue; <br>
+}
+ </p>
+
+
+ 
+
+ </div>
+
+
+ <h2>CSS Box Model</h2>
+
+ <p>
+
+    All HTML elements can be considered as boxes. <br>
+    <br>
+
+
+In CSS, the term "box model" is used when talking about design and layout.
+<br>
+
+The CSS box model is essentially a box that wraps around every HTML element.
+<br>
+It consists of: content, padding, borders and margins. 
+<br>
+The image below illustrates the box model:
+
+
+<img src="./box model.jpg" alt="box-model" srcset="">
+
+
+
+
+
+</p>
+
+
+
+<h3> Explanation of the different parts: </h3>
+
+
+<p>
+
+    Content - The content of the box, where text and images appear
+    Padding - Clears an area around the content. The padding is transparent
+    Border - A border that goes around the padding and content
+    Margin - Clears an area outside the border. The margin is transparent
+
+</p>
+
+
+<h3>Example</h3>
+<h4>Demonstration of the box model:</h4>
+
+<p>
+    div { <br>
+        width: 300px; <br>
+        border: 15px solid skyblue; <br>
+        padding: 50px; <br>
+        margin: 20px; <br>
+      }
+      
+
+</p>
+
+
+<img src="./box model demonostration -2.jpg" alt="" srcset="">
+
+
+<hr>
+<hr>
+
+
+
+<h3>  CSS Comments </h3>
+
+<p>
+
+    CSS comments are not displayed in the browser, but they can help document your source code.
+    <br>
+Comments are used to explain the code, and may help when you edit the source code at a later date.
+<br>
+
+Comments are ignored by browsers.
+<br>
+<br>
+
+<p>
+A CSS comment is placed inside the &lt;style&gt; element, and starts with /* and ends with */
+<br>
+
+   <h3> Example  </h3>
+    /* This is a single-line comment */
+    <br>
+
+    p {
+        <br>
+      color: red;
+      <br>
+    }
+
+</p>
+
+
+<br>
+
+<p>
+    You can add comments wherever you want in the code:
+    
+    
+       <h3> Example  </h3>
+        <br>
+    
+        p {
+            <br>
+            
+            color: red;  /* Set text color to red */
+          }
+          
+          <br>
+        
+    
+    </p>
+
+
+
+
+    
+
+<br>
+
+    <p>
+        Comments can also span multiple lines: 
+        
+        
+           <h3> Example  </h3>
+        
+            <p>
+            /* This is
+            <br>
+            a multi-line 
+            <br>
+            comment */
+            <br>
+            <br>
+            
+            p {
+                <br>
+              color: red;
+              <br>
+            }
+              <br>
+            
+        
+        </p>
+    
+
+
+<hr>
+<hr>
+
+
+
+
+
+<h3>Center an Element</h3>
+
+<p>margin property can be used to center an element</p>
+
+
+<p>    
+     margin-left: auto; 
+    margin-right: auto;
+     </p>
+
+
+<br><br>
+
+    <h2> <a href="http://127.0.0.1:5500/ISRO%20-with%20CSS/ISRO.html">Project Task with CSS</a></h2>
+
+</body>
+</html>

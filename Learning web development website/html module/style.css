@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.head-tags-description{
+    margin: 20px 20px 20px 20px;
+text-align: left;
+background-color: whitesmoke;
+}
+.head-tags-exercise{
+    margin: 20px 20px 20px 20px;
+    text-align: left;
+
+    background-color: whitesmoke;
+}
+
+.part-1{
+    background-color: dodgerblue;
+    border: 5px solid skyblue;
+    margin-top: -10px;
+}
+
+.part-2{
+    background-color: skyblue;
+    border: 5px solid dodgerblue;
+}

@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: skyblue;
+}
+
+#gslv{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    padding: 10px 10px 10px 10px;
+    border: solid 10px skyblue
+}
+
+.upper-container-gslv{
+    background-color: skyblue;
+    width: 500px;
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 20px solid white;
+}
+
+.content{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 1500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.container{ margin-left: auto;
+    margin-right: auto;
+    background-color: skyblue;
+    width: 700px;
+    height: 320px;
+    padding: 10px 10px 10px 10px;
+    border: solid 10px white;
+
+}
+
+
